@@ -1,4 +1,4 @@
-*{
+/*{
 	box-sizing: border-box;
 	padding: 0%;
 	margin: 0%;
@@ -149,8 +149,6 @@ header nav a{
    }
    .bottom-half .block {
 	   width: 33%;
-	  
-	   
    }
 
 .circleimg{
@@ -168,4 +166,79 @@ header nav a{
 }
 footer{
 	text-align:center;
+}
+.services-top{
+	text-align: left;
+	padding:2% 0 2% 0;
+	border-bottom: 2px solid grey;
+}
+.multiple-services{
+	
+}
+.top-two{
+	display: flex;
+	max-width: 100%;
+	justify-content: space-between;
+}
+.middle-two{
+	display: flex;
+	justify-content: space-around;
+	padding:2% 0 2% 0;
+}
+.bottom-two{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 4px solid grey;
+	padding:2% 0 2% 0;
+}
+.digital-design{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
+}
+.uxui{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
+}
+.learnmore{
+	width:20%;
+}
+.digital-marketing{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
+}
+.web-development{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
+}
+.ios-development{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
+}
+.andriod-development{
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	padding: 2%;
+	background-color:gainsboro;
 }
